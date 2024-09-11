@@ -1,3 +1,3 @@
-module github.com/mmiloslav/paniclib
+module github.com/mmiloslav/panic
 
 go 1.22.3
