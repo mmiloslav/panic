@@ -8,12 +8,12 @@ import (
 
 const runtimeDir = "/runtime/"
 
-// GetPanicLine - retrieves and returns line where panic occured
+// GetPanicLine - retrieves and returns line where panic occurred
 func GetPanicLine(r interface{}) string {
 	return get(r, true)
 }
 
-// GetPanicLines - retrieves and returns subsequence of lines where panic occured
+// GetPanicLines - retrieves and returns subsequence of lines where panic occurred
 func GetPanicLines(r interface{}) string {
 	return get(r, false)
 }
